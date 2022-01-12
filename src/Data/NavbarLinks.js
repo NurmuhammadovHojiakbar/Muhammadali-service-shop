@@ -24,11 +24,11 @@ export const NavbarLinks = [
                         path: "/sotuv-bolimi",
                     }, 
                     {
-                        text: "Agent Buyurtna",
+                        text: "Agent Buyurtma",
                         path: "/agent-buyurtma",
                     }, 
                     {
-                        text: "Mijoz Buyurtna",
+                        text: "Mijoz Buyurtma",
                         path: "/mijoz-buyurtma",
                     }, 
                 ]
@@ -38,12 +38,12 @@ export const NavbarLinks = [
                 text: "Qaytarilganlar",
                 dropdown:[
                     {
-                        text: "Mijoz vozvrat",
-                        path: "/mijoz-vozvrat",
+                        text: "Mijoz qaytariq",
+                        path: "/mijoz-qaytariq",
                     }, 
                     {
-                        text: "Yuk vozvrat",
-                        path: "/yuk-vozvrat",
+                        text: "Yuk qaytariq",
+                        path: "/yuk-qaytariq",
                     }, 
                 ]
             },
@@ -61,7 +61,7 @@ export const NavbarLinks = [
                     }, 
                     {
                         text: "Yuk to'lov",
-                        path: "/yuk-to'lov",
+                        path: "/yuk-tolov",
                     }, 
                 ]
             },
