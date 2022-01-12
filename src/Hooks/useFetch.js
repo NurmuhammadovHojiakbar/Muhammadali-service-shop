@@ -1,12 +1,12 @@
 import { useState } from "react";
 
-const useFetch = (endpoint,method,postData) => {
+const useFetch = (endpoint,postData = false) => {
 
     const [data,setData] = useState(null)
     const [loading,setLoading] = useState(true)
     const [error,setError] = useState(null)
 
-    if(method === "Get"){
+    if(!postData){
         setLoading(true)
         fetch(endpoint)
             .then(res => res.json())
@@ -14,7 +14,7 @@ const useFetch = (endpoint,method,postData) => {
             .catch(err => setError(err))
             .finally(setLoading(false))
     }
-    if(method === "POST"){
+    if(postData){
         setLoading(true)
         fetch(endpoint,{
             method:"POST",
