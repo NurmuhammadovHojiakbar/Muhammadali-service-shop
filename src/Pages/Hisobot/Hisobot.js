@@ -1,8 +1,17 @@
 import Mundarija from "../../Components/Mundarija/Mundarija";
 
 const Hisobot = () => {
+
+    const RouteList = [
+        {
+            icon: "",
+            text: "",
+            path: "/"
+        },
+    ]
+
     return (
-        <Mundarija title="Hisobot" />
+        <Mundarija title="Hisobot" list={RouteList} />
     );
 }
  

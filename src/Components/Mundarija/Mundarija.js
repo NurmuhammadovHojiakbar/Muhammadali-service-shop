@@ -37,17 +37,21 @@ const Mundarija = ({title, list}) => {
         justifyContent: "center",
     }
 
+    const buttonStyles = {
+        
+    }
+
     return (
         <Box container="div" sx={style}>
             <Typography variant="h4"component="h1" sx={captionStyles}>{title}</Typography>
             <Box container="div" sx={buttonContainer}>
                 {
                     list?.map(item=>(
-                        <Button 
-                            variant="container" 
-                            color="primary"
+                        <Button
+                            sx={buttonStyles}
+                            variant="contained" 
                             startIcon={item.icon}   
-                            onClick={()=>navigate(`/hisobot${item.path}`)} 
+                            onClick={()=>navigate(`${item.path}`)} 
                         >{item.text}</Button>
                     ))
                 }

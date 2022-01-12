@@ -24,7 +24,7 @@ const Layout = ({children}) => {
             >
                 <Navbar />
             </Box>
-            <Box sx={{flexGrow: 1, "z-index": "-1"}} >
+            <Box sx={{flexGrow: 1,}} >
                 <Header />
                 {children}
             </Box>
