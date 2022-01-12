@@ -1,4 +1,3 @@
-import SignIn from "../Pages/SignIn/SignIn";
 
 export const RouteComponents = [
     {
