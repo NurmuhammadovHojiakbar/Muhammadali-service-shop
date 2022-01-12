@@ -11,8 +11,8 @@ const Header = () => {
     const toolbarStyles = {flexWrap:{xs: "wrap", sm:"nowrap"}}
 
     return (
-        <Box component="div">
-            <AppBar position="static">
+        <Box component="div" position="relative">
+            <AppBar position="static" sx={{bgcolor: "rgba(34, 48, 70, .94)"}}>
                 <Toolbar sx={toolbarStyles}>
                     <Humburger setIsOpen={setIsOpen} />
                     <SearchForm />

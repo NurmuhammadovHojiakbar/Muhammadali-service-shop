@@ -1,3 +1,5 @@
+import Hisobot from "../Pages/Hisobot/Hisobot";
+import Xizmatlar from "../Pages/Xizmatlar/Xizmatlar";
 
 export const RouteComponents = [
     {
@@ -5,7 +7,11 @@ export const RouteComponents = [
         path: "/"
     },
     {
-        element: "Hello" ,
-        path: "/profile"
+        element: <Hisobot /> ,
+        path: "/hisobot"
+    },
+    {
+        element: <Xizmatlar /> ,
+        path: "/xizmatlar"
     },
 ]

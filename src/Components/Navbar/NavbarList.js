@@ -19,7 +19,7 @@ const NavbarList = () => {
         "&::-webkit-scrollbar-thumb": {
             bgcolor: "darkgrey",
             outline: "1px solid slategrey"
-          }
+        }
     }
 
     return (
