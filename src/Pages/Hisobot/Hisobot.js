@@ -1,17 +1,18 @@
 import Mundarija from "../../Components/Mundarija/Mundarija"
-import StarsIcon from '@mui/icons-material/Stars';
-import LocalShippingIcon from '@mui/icons-material/LocalShipping';
-import ApartmentIcon from '@mui/icons-material/Apartment';
-import EngineeringIcon from '@mui/icons-material/Engineering';
-import HomeWorkIcon from '@mui/icons-material/HomeWork';
 import AutoAwesomeMotionIcon from '@mui/icons-material/AutoAwesomeMotion';
-import BalanceIcon from '@mui/icons-material/Balance';
-import AddLocationAltIcon from '@mui/icons-material/AddLocationAlt';
 import FitbitIcon from '@mui/icons-material/Fitbit';
-import QrCode2Icon from '@mui/icons-material/QrCode2';
-import HailIcon from '@mui/icons-material/Hail';
-import ScatterPlotIcon from '@mui/icons-material/ScatterPlot';
-import QrCodeScannerIcon from '@mui/icons-material/QrCodeScanner';
+import CachedIcon from '@mui/icons-material/Cached';
+import ArticleIcon from '@mui/icons-material/Article';
+import SupervisedUserCircleIcon from '@mui/icons-material/SupervisedUserCircle';
+import BlurOnIcon from '@mui/icons-material/BlurOn';
+import AssignmentIcon from '@mui/icons-material/Assignment';
+import StorageIcon from '@mui/icons-material/Storage';
+import PostAddIcon from '@mui/icons-material/PostAdd';
+import AddCardIcon from '@mui/icons-material/AddCard';
+import AppRegistrationIcon from '@mui/icons-material/AppRegistration';
+import LocalAtmIcon from '@mui/icons-material/LocalAtm';
+import PhotoLibraryIcon from '@mui/icons-material/PhotoLibrary';
+import AutoGraphIcon from '@mui/icons-material/AutoGraph';
 
 const Hisobot = () => {
 
@@ -22,32 +23,32 @@ const Hisobot = () => {
             path: "/hisobot/mahsulot-qoldigi"
         },
         {
-            icon: <LocalShippingIcon />,
+            icon: <CachedIcon />,
             text: "Mahsulot aylanmasi",
             path: "/hisobot/mahsulot-aylanmasi"
         },
         {
-            icon: <ApartmentIcon />,
+            icon: <ArticleIcon />,
             text: "Reestr mahsulot",
             path: "/hisobot/reestr-mahsulot"
         },
         {
-            icon: <EngineeringIcon />,
+            icon: <SupervisedUserCircleIcon />,
             text: "Mijoz akt sverka",
             path: "/hisobot/mijoz-akt-sverka"
         },
         {
-            icon: <StarsIcon />,
+            icon: <BlurOnIcon />,
             text: "Mijozlar qoldig'i",
             path: "/hisobot/mijozlar-qoldigi"
         },
         {
-            icon: <HomeWorkIcon />,
+            icon: <AssignmentIcon />,
             text: "Reestr mijoz",
             path: "/hisobot/reestr-mijoz"
         },
         {
-            icon: <BalanceIcon />,
+            icon: <StorageIcon />,
             text: "Yuk beruvchi akt sverka",
             path: "/hisobot/yuk-beruvchi-akt-sverka"
         },
@@ -57,32 +58,32 @@ const Hisobot = () => {
             path: "/hisobot/yuk-beruvchilar-qoldigi"
         },
         {
-            icon: <AddLocationAltIcon />,
+            icon: <PostAddIcon />,
             text: "Reestr yuk beruvchi",
             path: "/hisobot/reestr-yuk-beruvchi"
         },
         {
-            icon: <QrCode2Icon />,
+            icon: <AddCardIcon />,
             text: "Kassa hisobi",
             path: "/hisobot/kassa-hisobi"
         },
         {
-            icon: <HailIcon />,
+            icon: <AppRegistrationIcon />,
             text: "DT.KT kontragentov",
             path: "/hisobot/dtkt-kontragentov"
         },
         {
-            icon: <ScatterPlotIcon />,
-            text: "MAxsulot foyda hisobi",
+            icon: <LocalAtmIcon />,
+            text: "Maxsulot foyda hisobi",
             path: "/hisobot/mahsulot-foyda-hisobi"
         },
         {
-            icon: <QrCodeScannerIcon />,
+            icon: <PhotoLibraryIcon />,
             text: "Foto hisobot",
             path: "/hisobot/foto-hisobot"
         },
         {
-            icon: <QrCodeScannerIcon />,
+            icon: <AutoGraphIcon />,
             text: "Foyda hisobi",
             path: "/hisobot/foyda-hisobi"
         },
