@@ -27,18 +27,24 @@ const Mundarija = ({title, list}) => {
     const captionStyles = {
         textAlign: "center",
         fontWeight: 600,
-        color: "#5584AC",
-        marginBottom: "16px",
+        color: "#1976d2",
+        marginBottom: "30px",
     }
 
     const buttonContainer = {
-        dislay: "flex",
+        display: "flex",
         flexWrap: "wrap",
         justifyContent: "center",
+        marginLeft: "-25px",
+        marginBottom: "-25px",
     }
-
+    
     const buttonStyles = {
-        
+        marginLeft: "25px",
+        marginBottom: "25px",
+        maxWidth: "330px",
+        width: "100%",
+        justifyContent: "flex-start",
     }
 
     return (
@@ -51,7 +57,7 @@ const Mundarija = ({title, list}) => {
                             sx={buttonStyles}
                             variant="contained" 
                             startIcon={item.icon}   
-                            onClick={()=>navigate(`${item.path}`)} 
+                            onClick={()=>navigate(item.path)} 
                         >{item.text}</Button>
                     ))
                 }

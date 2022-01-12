@@ -12,7 +12,7 @@ const Header = () => {
 
     return (
         <Box component="div" position="relative">
-            <AppBar position="static" sx={{bgcolor: "rgba(34, 48, 70, .94)"}}>
+            <AppBar position="static">
                 <Toolbar sx={toolbarStyles}>
                     <Humburger setIsOpen={setIsOpen} />
                     <SearchForm />
