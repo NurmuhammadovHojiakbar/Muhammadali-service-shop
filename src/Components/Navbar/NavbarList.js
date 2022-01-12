@@ -9,7 +9,7 @@ const NavbarList = () => {
         py: 2,
         px: 3,
         overflow:"auto",
-        height: "calc(100vh - 74px)",
+        height: "calc(100vh - 134px)",
         "&::-webkit-scrollbar": {
             width: "5px"
         },           
